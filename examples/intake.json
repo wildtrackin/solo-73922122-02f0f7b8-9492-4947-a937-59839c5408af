@@ -1,0 +1,19 @@
+{
+  "source_sample_ids": ["S-001"],
+  "samples": [
+    {"sample_id": "S-001", "batch_nos": ["B-1001"]},
+    {"sample_id": "S-002", "batch_nos": ["B-1001", "B-1002"]},
+    {"sample_id": "S-003", "batch_nos": ["B-1003"]},
+    {"sample_id": "S-004", "batch_nos": ["B-1004"]},
+    {"sample_id": "S-005", "batch_nos": ["B-1005"]},
+    {"sample_id": "S-006", "batch_nos": ["B-1006"]}
+  ],
+  "batches": [
+    {"batch_no": "B-1001", "origin": "Collection-Lab", "destination": "Hub-North", "departed_at": "2026-01-01T08:00:00Z", "arrived_at": "2026-01-01T10:00:00Z"},
+    {"batch_no": "B-1002", "origin": "Hub-North", "destination": "Reference-Lab", "departed_at": "2026-01-01T20:00:00Z", "arrived_at": "2026-01-01T22:00:00Z"},
+    {"batch_no": "B-1003", "origin": "Reference-Lab", "destination": "Archive", "departed_at": "2026-01-02T10:00:00Z", "arrived_at": "2026-01-02T12:00:00Z"},
+    {"batch_no": "B-1004", "origin": "Hub-North", "destination": "Cold-Room", "departed_at": "2026-01-02T10:30:00Z", "arrived_at": "2026-01-02T11:00:00Z"},
+    {"batch_no": "B-1005", "origin": "Hub-North", "destination": "Hub-South", "departed_at": "2026-01-02T10:30:01Z", "arrived_at": "2026-01-02T12:00:00Z"},
+    {"batch_no": "B-1006", "origin": "Other-Lab", "destination": "Reference-Lab", "departed_at": "2026-01-01T21:00:00Z", "arrived_at": "2026-01-01T22:30:00Z"}
+  ]
+}
